@@ -389,21 +389,21 @@ def handle_button_analyze_stage():
     text_box.insert('end', 'Lower value =' + str(lower_value))
     text_box.insert('end', '\n\n   ***** RESULTS *****\n\n**** Suspect ****\n')
     text_box.insert('end', str(analyze_s["gender"]) + ',' + str(analyze_s["dominant_race"]) + ',' + str(analyze_s["age"])+ ',' + str(analyze_s["dominant_emotion"]) + '\n**** Filler1 **** \n')
-    text_box.insert('end', str(analyze_f1["gender"]) + ',' + str(analyze_f1["dominant_race"]) + ',' + str(analyze_f1["age"]) + '\n' )
+    text_box.insert('end', str(analyze_f1["gender"]) + ',' + str(analyze_f1["dominant_race"]) + ',' + str(analyze_f1["age"]) + ','+ str(analyze_f1["dominant_emotion"]) + '\n' )
     text_box.insert('end', 'Dstn:' + distance_value1)
     text_box.insert('end', '\n**** Filler 2 ****\n')
-    text_box.insert('end', str(analyze_f2["gender"]) + ',' + str(analyze_f2["dominant_race"]) + ',' + str(analyze_f2["age"]) + '\n' )
+    text_box.insert('end', str(analyze_f2["gender"]) + ',' + str(analyze_f2["dominant_race"]) + ',' + str(analyze_f2["age"]) + ','+ str(analyze_f2["dominant_emotion"]) + '\n' )
     text_box.insert('end', distance_value2)
     text_box.insert('end', '\n**** Filler 3 ****\n')
-    text_box.insert('end', str(analyze_f3["gender"]) + ',' + str(analyze_f3["dominant_race"]) + ',' + str(analyze_f3["age"]) + '\n' )
+    text_box.insert('end', str(analyze_f3["gender"]) + ',' + str(analyze_f3["dominant_race"]) + ',' + str(analyze_f3["age"]) + ','+ str(analyze_f3["dominant_emotion"]) + '\n' )
     text_box.insert('end', distance_value3)
     text_box.insert('end', '\n**** Filler 4 ****\n')
-    text_box.insert('end', str(analyze_f4["gender"]) + ',' + str(analyze_f4["dominant_race"]) + ',' + str(analyze_f4["age"]) + '\n' )
+    text_box.insert('end', str(analyze_f4["gender"]) + ',' + str(analyze_f4["dominant_race"]) + ',' + str(analyze_f4["age"]) + ','+ str(analyze_f4["dominant_emotion"]) + '\n' )
     text_box.insert('end', distance_value4)
     text_box.insert('end', '\n**** Filler 5 ****\n')
-    text_box.insert('end', str(analyze_f5["gender"]) + ',' + str(analyze_f5["dominant_race"]) + ',' + str(analyze_f5["age"]) + '\n')
+    text_box.insert('end', str(analyze_f5["gender"]) + ',' + str(analyze_f5["dominant_race"]) + ',' + str(analyze_f5["age"]) + ','+ str(analyze_f5["dominant_emotion"]) + '\n')
     text_box.insert('end', distance_value5)
-    text_box.insert('end', '\n***\n The results which cover only gender, race, age, facial expression '
+    text_box.insert('end', '\n***\n The results only which include only gender, race, age, facial expression '
                            'and facial similarity.'
                            'It was determined only the lower threshold for facial similarity.'
                            'Other features such as hair color, hairstyle, facial hair eye color'
